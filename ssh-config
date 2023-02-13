@@ -1,0 +1,20 @@
+Host aws-ubuntu
+	HostName 13.127.55.157
+	User ubuntu
+	IdentityFile .\id_rsa
+	LocalForward 3306 127.0.0.1:3306
+Host ivs-kaveri
+	HostName 65.1.97.126
+	User ubuntu
+	IdentityFile .\id_rsa
+	LocalForward 3306 127.0.0.1:3306
+  LocalForward 6379 127.0.0.1:6379
+  LocalForward 8091 127.0.0.1:8091
+  LocalForward 9000 127.0.0.1:9000
+  LocalForward 18091 127.0.0.1:18091
+Host stg-144
+	HostName 192.168.108.144
+	User tridentapp
+	IdentityFile .\id_rsa
+  LocalForward 9000 127.0.0.1:9000
+
