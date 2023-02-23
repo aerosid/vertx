@@ -1,10 +1,10 @@
 Host aws-ubuntu
-	HostName 13.127.55.157
+	HostName a.b.c.d
 	User ubuntu
 	IdentityFile .\id_rsa
 	LocalForward 3306 127.0.0.1:3306
 Host ivs-kaveri
-	HostName 65.1.97.126
+	HostName a.b.c.d
 	User ubuntu
 	IdentityFile .\id_rsa
 	LocalForward 3306 127.0.0.1:3306
